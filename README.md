@@ -18,7 +18,7 @@ This script bypasses the limitations of WhatsApp's React-based virtualized DOM b
 3. Click the group name at the top to open the right-side info panel, then click **View all** under the members list to open the "Search members" modal.
 4. Open the Developer Console (`F12` or `Ctrl + Shift + J` / `Cmd + Option + J`).
    * *Note: If your browser blocks pasting, type `allow pasting` and press Enter.*
-5. Copy the contents of `extractor.js` and paste it into the console.
+5. Copy the contents of `whatsapp-contact-extractor-v1` and paste it into the console.
 6. Press **Enter**. 
 
 The script will automatically begin scrolling through the modal. Do not interact with the mouse or close the modal while it runs. Once it detects the absolute bottom of the list, it will automatically download a file named `whatsapp_contacts_flawless.csv`.
